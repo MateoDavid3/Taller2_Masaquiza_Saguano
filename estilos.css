@@ -1,0 +1,153 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box
+}
+body{
+    font-family:Arial,helvetica,sans-serif;
+    color: #2b2b2b;
+    max-width:600px;
+    margin:0 auto;
+    padding:24px 20px;
+}
+.encabezado{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:30px;
+}
+.logo h2 {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background-color: #2f5bd8;
+  color: white;
+  font-size: 1rem;
+  padding: 4px 6px;
+  border-radius: 6px;
+}
+.china {
+  background-color: white;
+  color: #2f5bd8;
+  padding: 0 3px;
+  border-radius: 3px;
+  font-size: 0.85rem;
+}
+.titulo h2{
+    color: #1f3fe0;
+    font-size: 1.4rem;
+}
+.navegacion{
+    display:flex;
+    gap:14px;
+    margin-bottom:40px;
+}
+.buscador{
+    flex:1;
+    display:flex;
+    align-items:center;
+    background-color:#f3f3f3;
+    border-radius:10px;
+    padding:0 16px;
+}
+.palabra{
+    flex:1;
+    border:none;
+    background-color:transparent;
+    outline:none;
+    text-align:center;
+    font-size:0.95rem;
+    font-weight:bold;
+    padding:12px 0;
+}
+.buscar{
+    border:none;
+    background: transparent;
+    cursor: pointer;
+    font-size:1rem;
+}
+.selecionar_idioma{
+  background-color: #f3f3f3;
+  border-radius:10px;
+  padding:0 12px;
+  display:flex;
+  align-items:center;
+}
+.Idiomas{
+    border:none;
+    background-color:transparent;
+    outline:none;
+    font-size:0.95rem;
+    font-weight:bold;
+    cursor:pointer;
+}
+.seccion_palabra{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:40px;
+}
+.Palabra_principal{
+ font-size:3.5rem;
+}
+.Reproducir{
+    width:66px;
+    height:66px;
+    border:none;
+    border-radius:50%;
+    background-color:#42a5f5;
+    color:white;
+    font-size:1.5rem;
+    cursor: pointer;
+}
+.titulo_traduccion{
+    display:flex;
+    align-items: center;
+    gap:20px;
+    font-size:1.2rem;
+    margin-bottom: 50px;
+}
+.titulo_traduccion::before,
+.titulo_traduccion::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background-color: #e5e5e5;
+}
+.Lista_traducciones{
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+.traduccion{
+    line-height: 1.7;
+    font-size: 0.95rem;
+    margin-bottom: 26px;
+}
+.traduccion::marker {
+  color: #2f5bd8;
+}
+.traduccion strong {
+  color: #2f5bd8;
+}
+.Titulo_sinonimos strong{
+    color:#999;
+    margin-right: 10px;
+}
+.sinonimo{
+     color: #2f5bd8;
+     font-weight: bold;
+     text-decoration: none;
+     margin-right: 6px;
+}
+.sinonimo:hover {
+  text-decoration: underline;
+}
+.Pie-pagina{
+    margin-top: 30px;
+    padding-top: 16px;
+    border-top:  1px solid #e5e5e5;
+}
+.Derechos{
+    font-size:0.8rem;
+    color: #888;
+}
