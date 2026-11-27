@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+ /* font-family: ; */
+  background-color: #ffffff;
+  color: #2d3436;
+  line-height: 1.5;
+}
+
+
+.encabezado, .navegacion, .contenido, .Pie-pagina {
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
