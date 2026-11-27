@@ -20,6 +20,31 @@ body {
   padding-right: 20px;
 }
 
+.encabezado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 28px;
+  padding-bottom: 24px;
+}
+
+.logo h2 {
+  background-color: #2185d0;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 3px 7px;
+  border-radius: 3px;
+  line-height: 1.2;
+}
+
+.titulo h2 {
+  color: #1e78c8;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+
 .navegacion {
   display: flex;
   align-items: center;
